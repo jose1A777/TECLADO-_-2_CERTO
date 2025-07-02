@@ -1,0 +1,17 @@
+:root{
+    
+    --cinza:#aaa;
+    --vermelho:red;
+    --vermelho-escuro:red;
+    --branca:white;
+    --luz:#ff5c77;
+}
+
+body{
+    align-items: center;
+    background-color: var(--vermelho-escuro);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
